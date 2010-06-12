@@ -8,6 +8,15 @@ gem 'rails', '3.0.0.beta4'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'haml'
 
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'cucumber-rails'
+  gem 'cucumber', '0.7.2'
+  gem 'rspec-rails', '2.0.0.beta.8'
+  gem 'spork'
+  gem 'launchy'    # So you can do Then show me the page
+end
 # Use unicorn as the web server
 # gem 'unicorn'
 
