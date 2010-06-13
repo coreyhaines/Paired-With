@@ -1,3 +1,7 @@
+def user(conditions)
+  User.where(conditions).first
+end
+
 Given /^a pairing between "([^\"]*)" and "([^\"]*)"$/ do |pair1, pair2|
   Factory(:pairing, :pair1 => user(:name => pair1), :pair2 => user(:name => pair2))
 end
