@@ -1,3 +1,4 @@
+@wip
 Feature: Creating a pairing
   In order to track who I've paired with
   As a user

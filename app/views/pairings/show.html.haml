@@ -1,0 +1,8 @@
+%h1
+  Pairings for
+  = @user.name
+
+%ul
+  - @pairs.each do |pair|
+    %li=pair.name
+
