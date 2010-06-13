@@ -1,1 +1,2 @@
-alias ss='rails s'
+alias ss='rails server'
+alias gen='rails generate'
