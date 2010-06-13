@@ -11,6 +11,9 @@ module NavigationHelpers
     when /the home\s?page/
       '/'
 
+    when /the pairings for "([^\"]*)" page/
+      user_pairings_path(User.where(:name => $1).first)
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
