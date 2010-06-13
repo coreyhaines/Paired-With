@@ -12,3 +12,5 @@ Feature: Viewing registered pairings
     And a pairing between "Corey" and "Sarah"
     When I go to the pairings for "Corey" page
     Then I should see a pairing with "Sarah"
+    When I go to the pairings for "Sarah" page
+    Then I should see a pairing with "Corey"
