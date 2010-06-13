@@ -4,6 +4,7 @@ Feature: Viewing registered pairings
   I want to see the registered pairings
 
 
+  @wip
   Scenario: Viewing a registered pairing
     Given the users
       | name  | email             |
